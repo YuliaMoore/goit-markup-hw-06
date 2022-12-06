@@ -957,9 +957,11 @@ padding: 10px 42px;
 
 .form-input:focus-within{
 border: 1px solid  #2196F3;
+outline: none;
 }
 
-.form-field:focus-within{fill:#2196F3
+.form-field:focus-within{
+  fill:#2196F3
 }
 
 .checkbox {
@@ -979,7 +981,7 @@ display: inline;
 
  .checkbox:checked+.icon-checkbox{
     background-color: #2196f3;
-    background-image: url('../images/check.svg');
+    background-image: url('../images/icon-check.svg');
     background-size: contain;
     background-origin: border-box;
     }
